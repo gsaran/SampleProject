@@ -15,8 +15,8 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 //@Configurable
 public class DAOClassImpl implements DAOClass {
 
-	@Autowired
-	private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
+	/*@Autowired
+	private NamedParameterJdbcTemplate namedParameterJdbcTemplate;*/
 	
 	@Override
 	public String getData() {
